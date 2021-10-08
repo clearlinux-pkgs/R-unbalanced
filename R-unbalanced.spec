@@ -4,7 +4,7 @@
 #
 Name     : R-unbalanced
 Version  : 2.0
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/unbalanced_2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/unbalanced_2.0.tar.gz
 Summary  : Racing for Unbalanced Methods Selection
@@ -16,12 +16,10 @@ Requires: R-doParallel
 Requires: R-foreach
 Requires: R-mlr
 BuildRequires : R-FNN
-BuildRequires : R-ParamHelpers
 BuildRequires : R-RANN
 BuildRequires : R-doParallel
 BuildRequires : R-foreach
 BuildRequires : R-mlr
-BuildRequires : R-parallelMap
 BuildRequires : buildreq-R
 
 %description
@@ -36,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1633626148
+export SOURCE_DATE_EPOCH=1633663292
 
 %install
-export SOURCE_DATE_EPOCH=1633626148
+export SOURCE_DATE_EPOCH=1633663292
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
