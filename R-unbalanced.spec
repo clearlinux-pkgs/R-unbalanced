@@ -4,7 +4,7 @@
 #
 Name     : R-unbalanced
 Version  : 2.0
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/unbalanced_2.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/unbalanced_2.0.tar.gz
 Summary  : Racing for Unbalanced Methods Selection
